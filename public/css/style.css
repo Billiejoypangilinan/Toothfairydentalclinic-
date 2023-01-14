@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 14px;
+    font-weight: 500 !important;
+	color: #000;
+	position: relative;
+	scroll-behavior: smooth;
+}
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+    outline: 0 !important;
+}
+h1, h2, h3, h4, h5, h6, b, .text-bold, .text-bold * {
+    font-weight: 700 !important;
+}
+h6, b {
+    letter-spacing: 0;
+}
+
+.bold-800 {
+	font-weight: 800 !important;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+img,
+video {
+	object-fit: cover;
+}
+
+body, html {
+	overflow-x: hidden;
+}
+
+
+/* COLOR THEME */
+.blue {
+	background-color: #104470 !important;
+}
+.text-blue {
+	color: #104470 !important;
+}
+.border-blue {
+	border: 1px solid #104470 !important;
+}
+
+.brown {
+	background-color: #976433  !important;
+}
+.text-brown {
+	color: #976433  !important;
+}
+.border-brown {
+	border: 1px solid #976433  !important;
+}
+
+/* ADDITIONAL STYLE */
+.p-35 {
+	padding: 1.25rem !important;
+}
+.p-75 {
+	padding: .75rem !important;
+}
+.pt-75, .py-75 {
+	padding-top: .75rem;
+}
+.pb-75, .py-75 {
+	padding-bottom: .75rem;
+}
+.pl-75, .px-75 {
+	padding-left: .75rem;
+}
+.pr-75, .px-75 {
+	padding-right: .75rem;
+}
+.pt-75, .py-75 {
+	padding-top: .75rem;
+}
+.pb-75, .py-75 {
+	padding-bottom: .75rem;
+}
+.z-2 {
+	z-index: 2;
+}
+.lh-1 {
+	line-height: 1.2;
+}
+.rounded-lg {
+    border-radius: 0.5rem!important;
+}
+.rounded-xxl {
+    border-radius: 20px!important;
+}
+.horizontal {
+	display: -webkit-box;
+}
+
+.vh-100 {
+	height: 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+.sidebar-nav {
+	width: 280px;
+}
+.main-content {
+	width: calc(100% - 280px);
+	/*margin-left: 400px;*/
+}
+
+.nav .active {
+	background-color: #073d8d !important;
+}
+
+.nav i {
+	position: relative;
+	bottom: -2px;
+}
+
+
+.data-panel {
+	height: 100px;
+}
+.date-label {
+	width: 110px;
+	bottom: 23px!important;
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.arrow-line {
+	height: 35px;
+}

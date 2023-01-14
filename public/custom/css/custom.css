@@ -1,0 +1,246 @@
+.semi-bold{
+	font-weight: 600;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.text-right{
+	text-align: right;
+}
+
+span{
+	font-size: 0.8rem;
+}
+
+
+.pull-center{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.table thead th {
+	background-color: #f7f7f7;
+	font-weight: 700;
+	text-align: center;
+}
+
+#cases_table_info, #cases_table_length, #cases_table_filter{
+	font-size: 0.8rem;
+}
+
+
+.step-disabled{
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.step{
+	min-height: 7rem;
+}
+
+.step-active{
+	border: 1px solid #104470;
+}
+
+.step-number{
+	font-size: 2rem;
+	font-weight: 700;
+	height: 100%;
+}
+
+.step-overdue{
+	background-color: #ff3e1d;
+	color: #fff;
+}
+
+.step-name-overdue  h6{
+	color: #ff3e1d;
+}
+
+
+.step-not-active{
+	background-color: #8592a380;
+	color: #fff;
+}
+
+.step-0a{
+	background-color: #e7e7ff;
+	color: #104470;
+	display: flex;
+	align-items: center;
+}
+
+.step-name-complete{
+	background-color: #dadee3;
+	color: #656f7c;
+	display: flex;
+	align-items: center;
+}
+
+.step-name-active{
+	background-color: #e7e7ff;
+	color: #104470;
+	display: flex;
+	align-items: center;
+}
+
+.step-name-active h6{
+	color: #104470;
+}
+
+.step-name-overdue{
+	background-color: #ffe0db;
+	color: #104470;
+	display: flex;
+	align-items: center;
+}
+
+.step-name-waiting{
+	background-color: #dadee3;
+	color: #dadee3;
+	display: flex;
+	align-items: center;
+}
+
+.step-complete{
+	background-color: #233446;
+	color: #fff;
+}
+
+.step-0{
+	background-color: #104470;
+	color: #fff;
+}
+
+.step-1{
+	background-color: #53afff;
+	color: #fff;
+}
+
+.step-2{
+	background-color: #9de16f;
+	color: #fff;
+}
+
+.step-3{
+	background-color: #ff3737;
+	color: #fff;
+}
+
+.step-4{
+	background-color: #ff74bc;
+	color: #fff;
+}
+
+.step-5{
+	background-color: #FFD868;
+	color: #fff;
+}
+
+.step-6{
+	background-color: #ff9351;
+	color: #fff;
+}
+
+.step-7{
+	background-color: #de6fff;
+	color: #fff;
+}
+
+.step-8{
+	background-color: #104470;
+	color: #fff;
+}
+
+.step-9{
+	background-color: #019267;
+	color: #fff;
+}
+
+.step-10{
+	background-color: #655D8A;
+	color: #fff;
+}
+
+.step-11{
+	background-color: #36d8b7;
+	color: #fff;
+}
+
+
+.opacity-10{
+	opacity: 0.8;
+}
+
+.square{
+	border-radius: 0 !important;
+}
+
+.notif-item{
+	border-bottom: 1px solid #a1acb82e;
+}
+
+
+table.dataTable{
+	margin-bottom: 2rem !important;
+	margin-top: 1rem !important;
+}
+
+
+.file-attach{
+	padding: 0.3rem 0.4rem !important;
+	font-size: 0.75rem;
+}
+
+/*WIDTH*/
+.w-10{
+	width: 10%;
+}
+
+.w-20{
+	width: 20%;
+}
+
+.w-30{
+	width: 30%;
+}
+
+.w-40{
+	width: 40%;
+}
+
+.w-50{
+	width: 50%;
+}
+
+.disabled-click{
+	pointer-events: none;
+}
+
+.lower{
+	text-transform: capitalize;
+}
+
+.min-300{
+	min-height: 300px;
+}
+
+.form-check-input {
+	font-size: 1rem;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: #104470;
+  background-color: #d6d6fb;
+}
+
+
+.overdue{
+	background-color: #ffe0db !important;
+	color: #ff3e1d !important;
+}

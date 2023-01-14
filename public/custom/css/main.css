@@ -1,0 +1,7 @@
+.txt-name {
+    text-transform: capitalize;
+}
+
+.close span {
+    font-size: 2vw !important;
+}
