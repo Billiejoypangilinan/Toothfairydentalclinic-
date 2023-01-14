@@ -45,7 +45,7 @@
               <span class="span">About Us</span>
             </a>
           </li>
-
+{{-- 
           <li>
             <a href="#" class="footer-link">
               <ion-icon name="add-outline"></ion-icon>
@@ -123,7 +123,7 @@
 
         </ul>
 
-        <ul class="footer-list">
+        <ul class="footer-list"> --}}
 
           <li>
             <p class="footer-list-title">Contact Us</p>
