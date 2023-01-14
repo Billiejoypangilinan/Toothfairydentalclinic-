@@ -6,7 +6,7 @@
       <section class="section service" id="service" aria-label="service">
         <div class="container">
 
-          <p class="section-subtitle text-center">Our Services</p>
+          <p class="section-subtitle text-center">Services</p>
 
           <h2 class="h2 section-title text-center">What We Provide</h2>
 
