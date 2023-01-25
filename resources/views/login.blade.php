@@ -59,7 +59,7 @@
               </a>
             </div>
             <div class="text-center mt-0" style="margin-top: -25px !important">
-              <h4 class="mb-2 bold">Welcome !</h4>
+              <h4 class="mb-2 bold">Welcome</h4>
               <p class="mb-2">Please sign-in to your account</p>
             </div>
 
