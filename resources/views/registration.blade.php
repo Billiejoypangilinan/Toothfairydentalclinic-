@@ -65,7 +65,7 @@
               @csrf
               <div class="mb-3">
                 <label for="email" class="form-label">Fullname</label>
-                <input type="text" class="form-control" name="name" autofocus autocomplete="off" required />
+               <input type="text" class="form-control" name="name" autofocus autocomplete="off" required />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Address</label>
