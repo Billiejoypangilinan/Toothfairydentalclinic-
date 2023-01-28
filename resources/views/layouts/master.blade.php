@@ -73,7 +73,7 @@
           @include('layouts.sidebar')
 
         </ul>
-      </aside>
+      </aside>  
       <!-- / Menu -->
 
       <!-- Layout container -->

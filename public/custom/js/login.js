@@ -87,6 +87,7 @@ $('#register_btn').click(function(e) {
             password: {
                 required: true
             }
+            
         }
     });
 

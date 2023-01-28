@@ -22,7 +22,7 @@
                 data: [24, 21, 30, 22, 42, 26, 35, 29,30,30,30,30]
             }],
             chart: {
-                height: 215,
+                height: 100,
                 parentHeightOffset: 0,
                 parentWidthOffset: 0,
                 toolbar: {

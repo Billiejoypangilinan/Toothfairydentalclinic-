@@ -44,6 +44,7 @@ Route::get('/Verifieduser/{id}', [LoginController::class, 'verifyUser'])->name('
 Route::get('/forgotpassword', [LoginController::class, 'forgotPasswordPage'])->name('forgotpassword');
 Route::post('/resetPassword', [LoginController::class, 'resetUserPassword'])->name('resetPassword');
 
+
 Route::middleware(['auth'])->group(function () {
 
 
