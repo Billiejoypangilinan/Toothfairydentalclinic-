@@ -89,6 +89,7 @@ $('#register_btn').click(function(e) {
             },
             confirm_password:{
                 required: true
+
             }   
             
             
@@ -121,6 +122,10 @@ $('#register_btn').click(function(e) {
             }else{
                 $('#msg').html(alert_success('Successful registered.! An email sent to you')).delay(4000).fadeOut('slow');
             }
+            // else if (result == 'no_user') {
+            //     $('#msg').html(alert_error('Username and password does\'nt match.')).delay(4000).fadeOut('slow');
+            //     // btn.removeClass('kt-spinner kt-spinner--right kt-spinner--sm kt-spinner--light').attr('disabled', false);
+            // }
             // if (result == 'success') {
             //     location.href = '/dashboard';
             // } else if (result == 'no_user') {
