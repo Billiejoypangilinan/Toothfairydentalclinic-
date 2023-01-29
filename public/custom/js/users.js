@@ -62,7 +62,7 @@ $(document).ready(function() {
             searchable: false,
             class: 'text-right',
             render: function(data, type, row) {
-                if (data.status == 1) {
+                if (data.status == 1) { 
                     return '<button type="button" data-table="users" data-id=' + data.id + ' data-role=' + data.role + ' data-name="' + data.name + '" data-email="' + data.email + '" data-bs-toggle="modal" data-bs-target="#modal_edit" data-placement="top" title="Edit Account" data-original-title="Edit Account" class="edit btn btn-sm btn-secondary"><i class="fa fa-pencil-alt"></i></button> ' +
                         '<button type="button" data-table="users"  data-id=' + data.id + '  data-role=' + data.role + ' data-name="' + data.name + '" data-bs-toggle="modal" data-bs-target="#modal_reset" data-placement="top" title="Reset Password" data-original-title="Reset Password" class="reset-pass btn btn-sm btn-secondary"><i class="fa fa-redo"></i></button> ' +
                         '<button type="button" data-table="users" data-id="' + data.id + '"  data-role=' + data.role + ' data-name="' + data.name + '" data-bs-toggle="modal" data-bs-target="#deactivate" data-placement="top" title="Deactivate" data-original-title="Deactivate" class="deactivate btn btn-sm btn-secondary"><i class="fa fa-toggle-on"></i></button> ';
