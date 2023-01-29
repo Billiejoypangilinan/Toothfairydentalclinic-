@@ -99,6 +99,11 @@ $('#register_btn').click(function(e) {
     if (!form.valid()) {
         return;
     }
+      if($('#password').val() != $('#confirm_password').val()){
+            alert('Password mismatch')
+            return false
+        }
+
 
 
     btn.attr('disabled', true);
@@ -159,6 +164,7 @@ $('#btn_fp').click(function(e){
     if (!form.valid()) {
         return;
     }
+    
 
 
     btn.attr('disabled', true);
