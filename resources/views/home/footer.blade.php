@@ -1,7 +1,7 @@
 <footer class="footer">
 
     <div class="footer-top section">
-      {{-- <div class="container">
+      <div class="container">
 
         <div class="footer-brand">
 
@@ -144,7 +144,7 @@
               <ion-icon name="call-outline"></ion-icon>
             </div>
 
-            <a href="tel:+917052101786" class="footer-link">+91-7052-101-786</a>
+            <a href="tel:+917052101786" class="footer-link">09159742153</a>
           </li>
 
           <li class="footer-item">
@@ -155,7 +155,7 @@
             <a href="mailto:help@example.com" class="footer-link">toothfairy@gmail.com</a>
           </li>
 
-        </ul> --}}
+        </ul>
 
       </div>
     </div>
