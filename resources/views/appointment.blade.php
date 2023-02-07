@@ -73,10 +73,10 @@
                     @endforeach
                 </select>
               </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Schedule Date</label>
-                <input type="date" class="form-control" id="schedule_date" name="schedule_date" autofocus autocomplete="off" required />
-              </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Schedule Date</label>
+                    <input type="date" class="form-control" id="schedule_date" name="schedule_date" autofocus autocomplete="off" required />
+                </div>
              
             </div>
               <div class="modal-footer">

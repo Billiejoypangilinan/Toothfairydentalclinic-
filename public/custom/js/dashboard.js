@@ -60,12 +60,14 @@ $(document).ready(function() {
             $('#msg').empty();
         },
         success: function(result) {
+            console.log(result)
             let data = []
             let label = []
             if(result.length == 0){
                 label = ['Jan']
                 data = [1]
             }else{
+                
                 for(let i = 0; i < result.length; i++){
                     console.log(result[i])
                     label.push(result[i].months)

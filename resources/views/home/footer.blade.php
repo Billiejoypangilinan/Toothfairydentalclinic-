@@ -1,7 +1,7 @@
 <footer class="footer">
 
     <div class="footer-top section">
-      <div class="container">
+      {{-- <div class="container">
 
         <div class="footer-brand">
 
@@ -152,10 +152,10 @@
               <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <a href="mailto:help@example.com" class="footer-link">help@example.com</a>
+            <a href="mailto:help@example.com" class="footer-link">toothfairy@gmail.com</a>
           </li>
 
-        </ul>
+        </ul> --}}
 
       </div>
     </div>
